@@ -1,0 +1,39 @@
+* {
+  border: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+}
+.card {
+  border: 2px #333;
+}
+
+h1 {
+  text-align: center;
+  /* border-bottom: 1px solid #666; */
+  /* display: inline-block; */
+}
+
+header {
+  /* background-color: #eb6e4b; */
+  background: linear-gradient(to right, #eb6e4b, #1f2839);
+  display: flex;
+  justify-content: center;
+}
+
+header span {
+  font-size: 2rem;
+  color: #fff;
+  align-self: center;
+  margin-right: 1.5rem;
+}
+header img {
+  padding: 1rem;
+  height: 9rem;
+  width: auto;
+}
+footer {
+  background: linear-gradient(to right, #1f2839, #eb6e4b);
+}
