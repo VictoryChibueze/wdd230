@@ -4,16 +4,33 @@
   box-sizing: border-box;
 }
 
+html,
 body {
+  font-family: "Roboto", sans-serif;
+  height: 100%;
+}
+body > footer {
+  position: sticky;
+  top: 100vh;
 }
 .card {
-  border: 2px #333;
+  border: 1px solid #848383;
+  margin: 0.5rem 2rem 0 2rem;
+  min-width: 50%;
+  height: 100%;
+}
+.card ul li {
+  list-style: none;
+}
+.parent .card h2 {
+  background-color: #1f2839;
+  color: #fff;
+  padding: 0.5rem;
+  text-align: center;
 }
 
 h1 {
   text-align: center;
-  /* border-bottom: 1px solid #666; */
-  /* display: inline-block; */
 }
 
 header {
@@ -36,4 +53,18 @@ header img {
 }
 footer {
   background: linear-gradient(to right, #1f2839, #eb6e4b);
+  padding: 2rem 0 2rem 0;
+  color: #fff;
+  text-align: center;
+}
+nav {
+  text-align: center;
+}
+nav ul li {
+  list-style: none;
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+nav ul li a {
+  text-decoration: none;
 }
