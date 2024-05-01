@@ -1,0 +1,1 @@
+let copyrightYearEl = document.g
