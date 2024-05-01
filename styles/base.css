@@ -6,6 +6,7 @@
 
 html,
 body {
+  font-size: 62.3%;
   font-family: "Roboto", sans-serif;
   height: 100%;
 }
@@ -13,24 +14,41 @@ body > footer {
   position: sticky;
   top: 100vh;
 }
+.active {
+  color: rgb(233, 233, 70);
+}
 .card {
   border: 1px solid #848383;
-  margin: 0.5rem 2rem 0 2rem;
+  margin: 0.5rem 2rem 0.5rem 2rem;
   min-width: 50%;
-  height: 100%;
+  height: auto;
 }
 .card ul li {
   list-style: none;
+  font-size: 1.2rem;
+  padding: 0.5rem;
+}
+.card ul li a {
+  font-size: 1.3rem;
+}
+.card p {
+  padding: 0.5rem;
+  font-size: 1.5rem;
+  text-align: center;
 }
 .parent .card h2 {
   background-color: #1f2839;
   color: #fff;
+  font-size: 1.4rem;
   padding: 0.5rem;
   text-align: center;
+  letter-spacing: 1px;
 }
 
 h1 {
+  font-size: 2rem;
   text-align: center;
+  padding: 0.9rem 0 0.9rem 0;
 }
 
 header {
@@ -56,15 +74,22 @@ footer {
   padding: 2rem 0 2rem 0;
   color: #fff;
   text-align: center;
+  font-size: 1.5rem;
 }
 nav {
+  background-color: rgb(0, 0, 0);
   text-align: center;
 }
 nav ul li {
   list-style: none;
-  font-size: 1.2rem;
-  font-weight: 400;
+  font-size: 1.6rem;
+  font-weight: 700;
+  padding: 1rem;
 }
+
 nav ul li a {
+  color: #fff;
+  display: block;
   text-decoration: none;
+  letter-spacing: 2px;
 }
