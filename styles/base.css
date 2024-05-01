@@ -12,7 +12,7 @@ body {
 }
 body > footer {
   position: sticky;
-  top: 100vh;
+  top: 100%;
 }
 .active {
   color: rgb(233, 233, 70);
@@ -79,7 +79,7 @@ footer {
   color: #fff;
   font-size: 1.5rem;
   margin-top: 1rem;
-  padding: 2rem 0 2rem 0;
+  padding: 2rem 0 0 0;
   text-align: center;
 }
 nav {
