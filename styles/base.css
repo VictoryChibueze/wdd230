@@ -9,6 +9,7 @@ body {
   font-size: 62.3%;
   font-family: "Roboto", sans-serif;
   height: 100vh;
+  overflow-y: hidden;
 }
 body > footer {
   position: sticky;
