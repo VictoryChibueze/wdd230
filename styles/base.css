@@ -12,8 +12,9 @@ body {
   overflow-y: hidden;
 }
 body > footer {
-  position: sticky;
-  top: 100vh;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
 .active {
   color: rgb(233, 233, 70);
@@ -26,7 +27,6 @@ body > footer {
 .card {
   border: 1px solid #848383;
   margin: 0 1rem;
-  /* min-width: 50%; */
   height: 100%;
 }
 .card ul li {
@@ -58,7 +58,6 @@ h1 {
 }
 
 header {
-  /* background-color: #eb6e4b; */
   background: linear-gradient(to right, #eb6e4b, #1f2839);
   display: flex;
   justify-content: center;
@@ -80,8 +79,6 @@ footer {
   color: #fff;
   font-size: 1.5rem;
   margin-top: 1rem;
-  padding: 0;
-  height: 10vh;
   text-align: center;
 }
 nav {
