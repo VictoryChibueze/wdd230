@@ -1,0 +1,59 @@
+html {
+  font-size: 62.5%;
+  font-family: "Roboto", sans-serif;
+}
+body {
+  width: 90%;
+  margin: 0 auto;
+}
+h1 {
+  font-size: 4rem;
+}
+h2 {
+  font-size: 2.5rem;
+}
+h3 {
+  font-size: 1.9rem;
+}
+h4 {
+  font-size: 1.4rem;
+}
+p {
+  font-size: 1.5rem;
+}
+header {
+  background-color: #002940;
+  color: #ffff;
+  text-align: center;
+}
+ul li {
+  font-size: 1.5rem;
+}
+colors th {
+  background-color: #31708e;
+}
+
+.colors td {
+  width: 25%;
+  height: 3em;
+}
+
+.primary {
+  background-color: #002940;
+}
+
+.secondary {
+  background-color: #31708e;
+}
+
+.accent1 {
+  background-color: #abb8c3;
+}
+
+.accent2 {
+  background-color: #cf2e2e;
+}
+
+.accent3 {
+  background-color: #fff;
+}
