@@ -16,6 +16,10 @@ body > footer {
   bottom: 0;
   width: 100%;
 }
+main {
+  height: 100%;
+}
+
 .active {
   color: rgb(233, 233, 70);
 }
@@ -54,7 +58,8 @@ body > footer {
 h1 {
   font-size: 2rem;
   text-align: center;
-  padding: 0.9rem 0 0.9rem 0;
+  padding: 1.1rem 0 0.9rem 0;
+  margin-top: 0;
 }
 
 header {
@@ -111,12 +116,20 @@ nav.open ul {
   cursor: pointer;
   font-size: 2rem;
   position: absolute;
-  top: 2rem;
+  top: 4rem;
   right: 1rem;
 }
 #ham-button::before {
   content: "\2630";
 }
 #ham-button.open::before {
-  content: "X";
+  content: "\2613";
+}
+#mode {
+  background: none;
+  font-size: 1.2rem;
+  position: absolute;
+  right: 0.5rem;
+  top: 0.8rem;
+  cursor: pointer;
 }

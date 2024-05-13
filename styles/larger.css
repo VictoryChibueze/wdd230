@@ -56,4 +56,7 @@
   #ham-button {
     display: none;
   }
+  #mode {
+    font-size: 2rem;
+  }
 }
