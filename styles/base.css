@@ -91,10 +91,32 @@ nav ul li {
   font-weight: 700;
   padding: 1rem;
 }
+nav ul {
+  display: none;
+}
 
 nav ul li a {
   color: #fff;
   display: block;
   text-decoration: none;
   letter-spacing: 2px;
+}
+nav.open ul {
+  display: block;
+  transition: 0.2s all ease-in-out;
+}
+#ham-button {
+  background: none;
+  color: white;
+  cursor: pointer;
+  font-size: 2rem;
+  position: absolute;
+  top: 2rem;
+  right: 1rem;
+}
+#ham-button::before {
+  content: "\2630";
+}
+#ham-button.open::before {
+  content: "X";
 }
