@@ -3,10 +3,10 @@
   border: 0;
   box-sizing: border-box;
 }
-html {
-  font-size: 62.5%;
-}
+
+html,
 body {
+  font-size: 62.5%;
   font-family: "Roboto", sans-serif;
 }
 header {
@@ -22,6 +22,7 @@ header {
 
 .header-nav button {
   padding: 0.75rem 1.25rem;
+  font-size: 1.5rem;
 }
 .logo {
   background: none;
@@ -39,21 +40,26 @@ header {
   height: 5vh;
 }
 .nav-bar ul {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  position: absolute;
   background-color: #0b0b0b;
+  position: absolute;
+  right: 0;
   height: 70%;
   width: 65vw;
+  padding: 2rem 0 0 0;
   /* z-index: 1000; */
 }
 .nav-bar ul li {
-  background-color: white;
-  padding: 1rem;
+  padding: 0.3rem 0;
   list-style: none;
 }
 .nav-bar ul li a {
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   text-decoration: none;
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+}
+.nav-bar ul li a:hover {
+  background-color: #fff;
+  transition: 0.2s all;
 }
