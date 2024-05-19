@@ -7,7 +7,8 @@
     <meta name="description" content="" />
     <meta name="author" content="Victory chibueze" />
     <link rel="icon" href="favicon.ico" type="image/x-icon" />
-    <link rel="stylesheet" href="styles/chamber-site-plan.css" />
+    <link rel="stylesheet" href="styles/base.css" />
+    <link rel="stylesheet" href="styles/large.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -17,6 +18,13 @@
   </head>
   <body>
     <header>
+      <img
+        src="images/logo.png"
+        alt="Logo"
+        height="50"
+        width="50"
+        class="logo"
+      />
       <span class="header-container">
         <a href="">Membership</a>
         <a href="">Contact Us</a>
@@ -37,7 +45,6 @@
       </nav>
     </header>
     <nav class="nav-bar">
-      <img src="" alt="Onitsha commerce chamber logo" />
       <ul>
         <li><a href="">Home</a></li>
         <li><a href="">Directory</a></li>
@@ -49,6 +56,24 @@
       </ul>
     </nav>
     <main>
+      <div class="hero-section">
+        <picture>
+          <source
+            media="(max-width: 500px)"
+            srcset="images/chamber-hero-small.webp"
+          />
+          <source
+            media="(max-width:1000px )"
+            srcset="images/chamber-hero-medium.webp"
+          />
+          <img
+            src="images/chamber-hero-large.webp"
+            alt="Chamber associates negotiating trades"
+            height="750"
+            width="1500"
+          />
+        </picture>
+      </div>
       <section>
         <h1>The center of Onitsha commerce</h1>
         <p>
