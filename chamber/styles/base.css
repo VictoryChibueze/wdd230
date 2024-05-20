@@ -23,7 +23,7 @@ header {
 }
 
 .header-nav button {
-  padding: 0.75rem 1.25rem;
+  padding: 0.5rem 1rem;
   font-size: 1.1rem;
 }
 .logo {
@@ -32,8 +32,8 @@ header {
   width: 4rem;
 }
 .header-container a {
-  font-size: 1.5rem;
-  padding: 0 1rem;
+  font-size: 1.2rem;
+  padding: 0 0.2rem;
   text-decoration: none;
 }
 .hero-section img {
@@ -44,18 +44,29 @@ header {
   height: 5vh;
 }
 .nav-bar ul {
-  background-color: #0b0b0b;
+  /* background-color: #0b0b0b;
   position: absolute;
-  right: 0;
-  top: 11.3%;
   height: 70%;
   width: 65vw;
   padding: 2rem 0 0 0;
-  /* z-index: 1000; */
+  z-index: 1000; */
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  position: fixed;
+  top: 10.5rem;
+  left: -250px; /* Hide off-screen */
+  height: 100%;
+  background-color: #333;
+  flex-direction: column;
+  align-items: center;
+  width: 250px;
+  transition: left 0.3s ease-in-out;
 }
 
 .nav-bar.close ul {
-  display: none;
+  left: 0;
   transition: 0.7s all ease-in-out;
 }
 .nav-bar ul li {
@@ -77,10 +88,10 @@ header {
 
 #menu {
   background: none;
-  font-size: 2.5rem;
+  font-size: 1.5rem;
   position: absolute;
   right: 1rem;
-  margin: 0.5rem 0 0 0;
+  margin: 0.4rem 0 0 0;
   padding: 0.3rem 0.6rem;
 }
 #menu:hover {
