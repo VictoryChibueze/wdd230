@@ -8,8 +8,8 @@ html,
 body {
   font-size: 62.5%;
   font-family: "Roboto", sans-serif;
-  height: 100vh;
-  overflow-y: hidden;
+  height: auto;
+  overflow-x: hidden;
 }
 header {
   display: flex;
@@ -21,7 +21,15 @@ header {
 .header-nav ul {
   display: none;
 }
-
+.hero-section {
+}
+.overlay {
+  background-color: rgba(51, 51, 51, 0.8);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
 .header-nav button {
   background-color: #f14d4d;
   color: #fff;
@@ -32,6 +40,26 @@ header {
   cursor: pointer;
   transform: scale(1.02);
   background-color: #f14d4d;
+}
+h1 {
+  font-size: 2rem;
+}
+
+.hero-vision {
+  position: absolute;
+  top: 16%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(51, 51, 51, 0.8);
+  height: 30%;
+}
+.hero-vision p {
+  text-align: center;
+  font-size: 1.1rem;
+  padding: 0 1rem;
 }
 .logo {
   background: none;
@@ -52,12 +80,6 @@ header {
   height: 5vh;
 }
 .nav-bar ul {
-  /* background-color: #0b0b0b;
-  position: absolute;
-  height: 70%;
-  width: 65vw;
-  padding: 2rem 0 0 0;
-  z-index: 1000; */
   list-style: none;
   margin: 0;
   padding: 0;
@@ -67,6 +89,7 @@ header {
   height: 100%;
   background-color: #333;
   flex-direction: column;
+  z-index: 1000;
 
   width: 250px;
   transition: left 0.3s ease-in-out;
