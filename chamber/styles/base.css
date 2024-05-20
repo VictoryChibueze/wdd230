@@ -24,10 +24,12 @@ header {
 
 .header-nav button {
   padding: 0.75rem 1.25rem;
-  font-size: 1.5rem;
+  font-size: 1.1rem;
 }
 .logo {
   background: none;
+  height: 4rem;
+  width: 4rem;
 }
 .header-container a {
   font-size: 1.5rem;
@@ -45,7 +47,7 @@ header {
   background-color: #0b0b0b;
   position: absolute;
   right: 0;
-  top: 11.4rem;
+  top: 11.3%;
   height: 70%;
   width: 65vw;
   padding: 2rem 0 0 0;
