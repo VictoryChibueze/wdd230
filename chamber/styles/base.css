@@ -28,6 +28,11 @@ header {
   padding: 0.5rem 1rem;
   font-size: 1.1rem;
 }
+.header-nav button:hover {
+  cursor: pointer;
+  transform: scale(1.02);
+  background-color: #f14d4d;
+}
 .logo {
   background: none;
   height: 4rem;
@@ -86,6 +91,7 @@ header {
 }
 .nav-bar ul li a:hover {
   background-color: #cf2e2e;
+  cursor: pointer;
   transition: 0.2s all;
 }
 .nav-bar ul li a.active {
