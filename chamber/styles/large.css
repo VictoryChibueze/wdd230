@@ -92,4 +92,7 @@
   #menu {
     display: none;
   }
+
+  @keyframe slide {
+  }
 }
