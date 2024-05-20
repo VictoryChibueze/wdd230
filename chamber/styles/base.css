@@ -8,6 +8,8 @@ html,
 body {
   font-size: 62.5%;
   font-family: "Roboto", sans-serif;
+  height: 100vh;
+  overflow-y: hidden;
 }
 header {
   display: flex;
@@ -51,8 +53,8 @@ header {
 }
 
 .nav-bar.close ul {
-  right: -200rem;
-  transition: 0.4s all ease-in-out;
+  display: none;
+  transition: 0.7s all ease-in-out;
 }
 .nav-bar ul li {
   padding: 0.3rem 0;
