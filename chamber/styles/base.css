@@ -137,12 +137,13 @@ h1 {
 
 .weather {
   display: grid;
-  font-size: 3rem;
+  /* font-size: 3rem; */
   background-color: #31708e;
   color: #fff;
   grid-template-rows: 1fr 1fr;
   justify-content: center;
   margin: 0 auto;
+  padding: 2rem;
   max-width: 80%;
   border-radius: 2%;
   margin-top: 3rem;
@@ -162,6 +163,21 @@ h1 {
   height: 80%;
 }
 .weather-future {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  font-size: 1.5rem;
+  padding: 1.5rem 0;
+  grid-gap: 1.5rem;
+}
+.weather-future p {
+  font-size: 1.1rem;
+  padding: 0.25rem 0;
+}
+.weather-future h4 {
+  font-size: 1.4rem;
+}
+.weather-future h5 {
+  font-size: 1rem;
 }
 .today-date h3 {
   font-size: 5rem;
