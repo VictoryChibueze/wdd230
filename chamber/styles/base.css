@@ -180,14 +180,14 @@ h1 {
   font-size: 1rem;
 }
 .today-date h3 {
-  font-size: 5rem;
+  font-size: 2rem;
 }
 .today-date h4 {
-  font-size: 1.95rem;
+  font-size: 1.25rem;
 }
 .today-temp p {
-  font-size: 1.2rem;
+  font-size: 0.95rem;
 }
 .current-temp {
-  font-size: 3.5rem;
+  font-size: 2rem;
 }
