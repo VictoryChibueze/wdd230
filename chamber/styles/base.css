@@ -46,19 +46,21 @@ h1 {
 }
 
 .hero-vision {
-  position: absolute;
-  top: 20%;
   color: white;
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* justify-content: center; */
-  background-color: rgba(51, 51, 51, 0.8);
-  height: 22%;
+  width: 80%;
+  margin: 2rem auto;
+  background-color: rgba(0, 41, 64);
+  height: 100%;
+  border-radius: 1.4rem;
+  border-left: 1rem solid #31708e;
+  border-right: 1rem solid #31708e;
 }
 .hero-vision p {
   text-align: center;
-  font-size: 1.1rem;
+  font-size: 0.9rem;
   padding: 0 1rem;
 }
 .logo {

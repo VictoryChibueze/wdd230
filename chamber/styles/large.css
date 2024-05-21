@@ -55,17 +55,13 @@
     justify-content: center;
   }
   .hero-vision {
-    position: absolute;
-    top: 20%;
-    color: white;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 50%;
   }
   h1 {
-    font-size: 5.5rem;
+    font-size: 4rem;
   }
   .hero-vision p {
     text-align: center;
