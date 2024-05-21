@@ -55,13 +55,21 @@ h1 {
   background-color: rgba(0, 41, 64);
   height: 100%;
   border-radius: 1.4rem;
-  border-left: 1rem solid #31708e;
-  border-right: 1rem solid #31708e;
+  border-left: 0.5rem solid #31708e;
+  border-right: 0.5rem solid #31708e;
 }
 .hero-vision p {
   text-align: center;
   font-size: 0.9rem;
   padding: 0 1rem;
+}
+.hero-vision button {
+  background-color: #cf2e2e;
+  color: #fff;
+  padding: 0.75rem 5rem;
+  font-size: 1.5rem;
+  margin: 1rem 0;
+  border-radius: 3px;
 }
 .logo {
   background: none;

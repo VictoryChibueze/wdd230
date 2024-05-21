@@ -54,20 +54,14 @@
     align-items: center;
     justify-content: center;
   }
-  .hero-vision {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
+
   h1 {
-    font-size: 4rem;
+    font-size: clamp(1.5rem, 5vw, 4rem);
   }
   .hero-vision p {
     text-align: center;
-    font-size: 2rem;
+    font-size: clamp(0.75rem, 3vw, 2rem);
     padding: 0 1rem;
-    width: 60%;
   }
   .nav-bar ul li {
     padding: 0.3rem 0;
