@@ -3,7 +3,7 @@ const inputEl = document.querySelector("#favchap");
 const listEl = document.querySelector("#list");
 const btnEl = document.querySelector("button");
 
-const chapterArrays = getChaptersList() || [];
+const chapterArrays = getChapterList() || [];
 
 chapterArrays.forEach((chapter) => {
   displayList(chapter);
@@ -39,20 +39,29 @@ function setChapterList() {
   localStorage.setItem("favBOMList", JSON.stringify(chapterArrays));
 }
 
-function getChapterList() {}
-btnEl.addEventListener("click", () => {
-  if (inputEl.value != " ") {
-    const li = document.createElement("li");
-    const button = document.createElement("button");
-    li.innerHTML = inputEl.value;
-    button.textContent = "❌";
-    li.append(button);
-    listEl.append(li);
+function getChapterList() {
+  return JSON.parse(localStorage.getItem("favBOMList"));
+}
 
-    button.addEventListener("click", () => {
-      listEl.removeChild(li);
-      inputEl.focus();
-    });
-    inputEl.value = "";
-  }
-});
+function deleteChapter(chapter) {
+  chapter = chapter.slice(0, chapter.length - 1);
+  chapterArrays = chapterArrays.filter((item) => item !== chapter);
+  setChapterList();
+}
+
+// btnEl.addEventListener("click", () => {
+//   if (inputEl.value != " ") {
+//     const li = document.createElement("li");
+//     const button = document.createElement("button");
+//     li.innerHTML = inputEl.value;
+//     button.textContent = "❌";
+//     li.append(button);
+//     listEl.append(li);
+
+//     button.addEventListener("click", () => {
+//       listEl.removeChild(li);
+//       inputEl.focus();
+//     });
+//     inputEl.value = "";
+//   }
+// });
