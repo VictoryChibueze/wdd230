@@ -8,14 +8,12 @@ html,
 body {
   font-size: 62.3%;
   font-family: "Roboto", sans-serif;
-  height: 100vh;
-  overflow-y: hidden;
 }
-body > footer {
+/* body > footer {
   position: fixed;
   bottom: 0;
   width: 100%;
-}
+} */
 main {
   height: 100%;
 }
@@ -79,6 +77,25 @@ header img {
   height: 9rem;
   width: auto;
 }
+.hero-section {
+  position: relative;
+}
+.hero-section img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.hero-section span {
+  position: absolute;
+  top: 30%;
+  left: 10%;
+  width: 40%;
+  background-color: rgb(51, 51, 51, 0.6);
+  color: #fff;
+  font-size: 1.5rem;
+  padding: 1rem;
+  text-align: center;
+}
 footer {
   background: linear-gradient(to right, #1f2839, #eb6e4b);
   color: #fff;
@@ -109,6 +126,14 @@ nav ul li a {
 nav.open ul {
   display: block;
   transition: 0.2s all ease-in-out;
+}
+.map {
+  width: 100%;
+  margin-top: 2rem;
+}
+iframe {
+  width: 100%;
+  padding: 1rem;
 }
 #ham-button {
   background: none;

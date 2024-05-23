@@ -2,6 +2,7 @@
   .parent {
     display: grid;
     grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr;
     margin: 0 3rem;
   }
   .parent .card h2 {
@@ -48,6 +49,21 @@
   header img {
     height: 15rem;
     width: auto;
+  }
+  .hero-section {
+    width: 95%;
+    margin: 0 auto;
+  }
+  .hero-section span {
+    font-size: 3rem;
+    padding: 1.65rem;
+  }
+  .map {
+    width: 95%;
+    margin: 0 auto;
+  }
+  iframe {
+    padding-top: 2rem;
   }
   footer {
     padding: 2.9rem 0 2rem 0;
