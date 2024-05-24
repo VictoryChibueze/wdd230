@@ -128,4 +128,17 @@
   footer ul li {
     margin: 0 2rem;
   }
+
+  .footer-grid {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 2fr 1fr;
+    gap: 2rem;
+
+    padding: 1.5rem 0;
+  }
+
+  footer div a:hover {
+    text-decoration: underline;
+  }
 }

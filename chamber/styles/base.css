@@ -225,6 +225,21 @@ footer p {
   border-top: 1px solid #5a5959;
   padding: 1rem 0;
 }
+.footer-grid {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+  place-items: center;
+  padding: 1rem 0;
+}
+footer div a {
+  display: block;
+  color: #fff;
+  font-size: 1.5rem;
+  padding: 0.3rem 0;
+  text-decoration: none;
+}
 
 .weather-source {
   color: #d4d1d1;
