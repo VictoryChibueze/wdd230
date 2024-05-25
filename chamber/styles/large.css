@@ -166,6 +166,9 @@
     grid-row-start: 1;
     grid-row-end: 8;
   }
+  .image-gallery img:hover {
+    box-shadow: 2rem 2rem 4em rgba(0, 0, 0, 0.2);
+  }
   figure img {
     width: 100%;
     height: auto;
