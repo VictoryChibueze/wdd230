@@ -255,3 +255,20 @@ footer div a {
 .weather-source a:hover {
   text-decoration: none;
 }
+
+/* Discover page  */
+
+.top {
+  text-align: center;
+  background-color: #d9e8f1;
+  width: 80%;
+  margin: 0.5rem auto;
+  padding: 2rem 0;
+}
+.top h2 {
+  font-size: 2rem;
+  font-weight: 900;
+}
+.top p {
+  font-size: 1.2rem;
+}

@@ -141,4 +141,38 @@
   footer div a:hover {
     text-decoration: underline;
   }
+  /* Discover page  */
+
+  .top h2 {
+    font-size: 3rem;
+  }
+  .top p {
+    font-size: 1.5rem;
+  }
+  .gallery {
+    margin: 2rem auto;
+    width: 90%;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: repeat(6, 1fr);
+    grid-row-gap: 2rem;
+  }
+
+  .side-bar {
+    background-color: yellow;
+    grid-row-start: 1;
+    grid-row-end: 7;
+  }
+  .image-gallery {
+    grid-row-start: 1;
+    grid-row-end: 8;
+  }
+  figure img {
+    width: 100%;
+    height: auto;
+  }
+  figure figcaption {
+    font-size: 2rem;
+    text-align: center;
+  }
 }
