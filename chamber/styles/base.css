@@ -268,9 +268,15 @@ footer div a {
 .top h2 {
   font-size: 2rem;
   font-weight: 900;
+  color: #002940;
 }
 .top p {
   font-size: 1.2rem;
+}
+.top h5 {
+  font-size: 1.5rem;
+  color: #002940;
+  padding: 1.2rem 0 0 0;
 }
 .event {
   display: flex;
@@ -279,7 +285,7 @@ footer div a {
   justify-content: center;
   text-align: center;
   background-color: #2c7da0;
-  height: 20%;
+  height: 30%;
   gap: 1.5rem;
   width: 90%;
   margin: 2rem auto;
@@ -332,7 +338,7 @@ footer div a {
   justify-content: center;
   text-align: center;
   background-color: #2c7da0;
-  height: 20%;
+  height: 30%;
   gap: 1.5rem;
   width: 90%;
   margin: 2rem auto;
@@ -353,4 +359,59 @@ footer div a {
   color: #fff;
   font-size: 1.5rem;
   padding: 1rem 0;
+}
+.restuarant {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: #2c7da0;
+  height: 30%;
+  gap: 1.5rem;
+  width: 90%;
+  margin: 2rem auto;
+}
+.restuarant h3 {
+  color: #012a4a;
+  font-size: 2rem;
+  letter-spacing: 2px;
+}
+.restuarant h4 {
+  font-size: 1.5rem;
+  color: rgb(232, 232, 232);
+  padding: 1rem 0;
+}
+.restuarant p {
+  font-size: 1.5rem;
+}
+.restuarant div {
+  border-bottom: 1px solid #333;
+  padding: 1rem;
+}
+.display-time {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: rgba(16, 9, 4, 0.9);
+  height: 7%;
+  gap: 1.5rem;
+  width: 90%;
+  margin: 2rem auto;
+}
+.display-time h5 {
+  font-size: 2rem;
+  color: #fff;
+  letter-spacing: 1.5px;
+}
+.display-time h6 {
+  color: #fff;
+  font-size: 1rem;
+}
+.display-time p {
+  font-style: italic;
+  color: #fff;
+  font-size: 1.3rem;
 }
