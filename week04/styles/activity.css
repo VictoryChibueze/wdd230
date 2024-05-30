@@ -33,3 +33,22 @@ main {
 .col {
   padding: 10px;
 }
+main a:visited,
+main a:active {
+  color: link;
+}
+main a:hover {
+  color: purple;
+}
+.datatable {
+  border: 1px solid #333;
+}
+.row:not(:last-child) {
+  border-bottom: 1px solid #333;
+}
+.col:not(:last-child) {
+  border-right: 1px solid #333;
+}
+.row:last-child {
+  background-color: #999;
+}
