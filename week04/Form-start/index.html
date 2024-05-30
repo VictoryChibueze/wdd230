@@ -43,7 +43,7 @@
     <!-- CONTENT HERE -->
     <main>
       <h1>Course Proposal Application</h1>
-      <form method="get" action="thanks.html">
+      <form method="get" action="thanks.html" class="wf1">
         <fieldset>
           <legend>Applicant Information</legend>
           <label
@@ -80,8 +80,46 @@
           </label>
 
           <div>Software Needed</div>
-          <label for=""><input type="text" /></label>
+          <label
+            ><input
+              type="checkbox"
+              name="editing"
+              value="editing"
+            />Editing</label
+          >
+          <label><input type="checkbox" name="code" value="code" />Code</label>
+          <label
+            ><input
+              type="checkbox"
+              name="processor"
+              value="processor"
+            />Preprocessor</label
+          >
+          <label
+            ><input type="checkbox" name="FTP Client" value="FTP Client" />FTP
+            Client</label
+          >
         </fieldset>
+        <fieldset>
+          <legend>Funding</legend>
+          <label>Anticipated Completion Data <input type="data" /></label>
+          <label
+            >Course subject
+            <select name="subject">
+              <option value="">Please Select</option>
+              <option value="">Software Development</option>
+              <option value="">Creative Professional</option>
+              <option value="">Information Technology</option>
+              <option value="">Data Professional</option>
+              <option value="">Construction</option>
+              <option value="">Manufacturing</option>
+              <option value="">Business Professional</option>
+              <option value="">CyberSecurity</option>
+            </select>
+          </label>
+          <label> How many Author <input type="number" name="authors" /></label>
+        </fieldset>
+        <input type="submit" value="propose my course" />
       </form>
     </main>
 
