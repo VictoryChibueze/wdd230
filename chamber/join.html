@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Onitsha Chamber of commerce | City of Onitsha, Anambra</title>
+    <meta name="description" content="" />
+    <meta name="author" content="Victory chibueze" />
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="styles/normalize.css" />
+    <link rel="stylesheet" href="styles/base.css" />
+    <link rel="stylesheet" href="styles/large.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Open+Sans:ital,wght@0,300;0,700;1,400&family=Roboto:wght@300;400;500;900&display=swap"
+      rel="stylesheet"
+    />
+    <script src="scripts/navigation.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <img
+        src="images/logo.png"
+        alt="Logo"
+        height="50"
+        width="50"
+        class="logo"
+      />
+      <span class="header-container">
+        <a href="">Membership</a>
+        <a href="">Contact Us</a>
+      </span>
+      <nav class="header-nav">
+        <ul>
+          <li>
+            <a href=""><img src="" alt="" /></a>
+          </li>
+          <li>
+            <a href=""><img src="" alt="" /></a>
+          </li>
+          <li>
+            <a href=""><img src="" alt="" /></a>
+          </li>
+        </ul>
+        <button type="submit">Join Newsletter</button>
+      </nav>
+    </header>
+    <nav class="nav-bar">
+      <button id="menu"></button>
+      <ul>
+        <li><a class="active" href="">Home</a></li>
+        <li><a href="">Directory</a></li>
+        <li><a href="">Discover</a></li>
+        <li><a href="">Join</a></li>
+        <li><a href="">Event</a></li>
+        <li><a href="">About Us</a></li>
+        <li><a href="">Membership Login</a></li>
+      </ul>
+    </nav>
+    <main>
+      <form action="record.html" method="get">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required /><br />
+
+        <label for="password">Password:</label>
+        <input
+          type="password"
+          id="password"
+          name="password"
+          pattern="[A-Za-z0-9]{8,}"
+          required
+        /><br />
+
+        <label for="confirmPassword">Confirm Password:</label>
+        <input
+          type="password"
+          id="confirmPassword"
+          name="confirmPassword"
+          required
+        /><br />
+
+        <label for="email">Email:</label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          pattern="[a-zA-Z0-9._%+-]+@byui\.edu$"
+          required
+          title="Please enter a valid byui.edu email address"
+        /><br />
+
+        <label for="pageRating">Page Rating:</label>
+        <input
+          type="range"
+          id="pageRating"
+          name="pageRating"
+          min="1"
+          max="10"
+          step="1"
+        /><br />
+
+        <button type="submit">Submit</button>
+      </form>
+    </main>
+    <footer>
+      <div class="footer-grid">
+        <div>
+          <a href="">Legal</a>
+          <a href="">Advocacy</a>
+          <a href="">Media</a>
+          <a href="">FAQ</a>
+          <a href="">T&C</a>
+        </div>
+        <div class="right-grid">
+          <a href="">Contact Us</a>
+          <a href="">Privacy</a>
+          <a href="">Blog</a>
+          <a href="">Community</a>
+          <a href="">Webinar</a>
+        </div>
+      </div>
+
+      <ul class="footer-link">
+        <li>
+          <a href=""><img src="images/facebook.webp" alt="fb-icon" /></a>
+        </li>
+        <li>
+          <a href=""><img src="images/linkedin.webp" alt="linkedin-icon" /></a>
+        </li>
+        <li>
+          <a href=""><img src="images/instagram.webp" alt="Insta-icon" /></a>
+        </li>
+        <li>
+          <a href=""><img src="images/X.webp" alt="X-icon" /></a>
+        </li>
+      </ul>
+      <p>
+        &copy; <span id="year"></span> written by Victory Chibueze Abia, Nigeria
+        | last modified <span></span>
+      </p>
+      <span class="weather-source"
+        >Weather source <a href=""> @OpenWeather</a></span
+      >
+    </footer>
+  </body>
+</html>

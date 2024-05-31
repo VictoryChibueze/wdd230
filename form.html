@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="The Spring 2024 Web frontend development course assignment portal.A demonstration of knowledge obtained and mastered by Victory Chibueze of Brigham Young University ,Idaho Utah. "
+    />
+
+    <meta name="author" content="Victory Chibueze" />
+    <link rel="stylesheet" href="styles/normalize.css" />
+    <link rel="stylesheet" href="styles/base.css" />
+    <link rel="stylesheet" href="styles/form.css" />
+    <link rel="stylesheet" href="styles/larger.css" />
+
+    <title>[Victory Chibueze]- WDD 230 - Web Frontend Development</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Open+Sans:ital,wght@0,300;0,700;1,400&family=Roboto:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="favicon(3).ico" />
+  </head>
+  <body>
+    <header>
+      <img src="images/my-profile.webp" alt="victory chibueze's potrait" />
+      <span>Victory Chibueze</span>
+      <button type="button" id="mode">🌙</button>
+    </header>
+    <nav>
+      <button type="button" id="ham-button"></button>
+
+      <ul class="menu-links">
+        <li><a href="" class="active">Home</a></li>
+        <li><a href="chamber/index.html">Chamber</a></li>
+        <li><a href="week01/chamber-site-plan.html">Site Plan</a></li>
+        <li><a href="">Form</a></li>
+      </ul>
+    </nav>
+    <main>
+      <form action="record.html" method="get">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required /><br />
+
+        <label for="password">Password:</label>
+        <input
+          type="password"
+          id="password"
+          name="password"
+          pattern="[A-Za-z0-9]{8,}"
+          required
+        /><br />
+
+        <label for="confirmPassword">Confirm Password:</label>
+        <input
+          type="password"
+          id="confirmPassword"
+          name="confirmPassword"
+          required
+        /><br />
+
+        <label for="email">Email:</label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          pattern="[a-zA-Z0-9._%+-]+@byui\.edu$"
+          required
+          title="Please enter a valid byui.edu email address"
+        /><br />
+
+        <label for="pageRating">Page Rating:</label>
+        <input
+          type="range"
+          id="pageRating"
+          name="pageRating"
+          min="1"
+          max="10"
+          step="1"
+        /><br />
+
+        <button type="submit">Submit</button>
+      </form>
+    </main>
+    <div class="map">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d3966.945367899086!2d6.773479724749842!3d6.1380423438488565!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e6!4m5!1s0x1043930f65b0e757%3A0xf1b7a3f0c341419c!2sC-PLUS%20HOTEL%2C%20Bida%20Road%2C%20Onitsha!3m2!1d6.1401049!2d6.7811406!4m5!1s0x104393fb702f728d%3A0xd20a851eb943ea5e!2sFegge%20Police%20Station%2C%20Owerri%20Street%2C%20Onitsha!3m2!1d6.1351695!2d6.771318!5e0!3m2!1sen!2sng!4v1716441060373!5m2!1sen!2sng"
+        width="600"
+        height="450"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+    </div>
+
+    <footer>
+      <p>&copy; <span id="year"></span> Victory Chibueze Abia, Nigeria</p>
+      <p id="lastModified"></p>
+    </footer>
+    <script src="scripts/getDates.js"></script>
+    <script src="scripts/navigation.js"></script>
+    <script src="scripts/formValidation.js"></script>
+  </body>
+</html>
