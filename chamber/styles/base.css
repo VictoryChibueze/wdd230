@@ -144,6 +144,7 @@ h1 {
 }
 #menu::before {
   content: "\2630";
+  color: #000;
 }
 
 .weather {
@@ -415,20 +416,19 @@ footer div a {
   color: #fff;
   font-size: 1.3rem;
 }
-
-/* General form styles */
 form {
-  background-color: var(--main-bg-color);
-  color: var(--main-font-color);
+  background-color: #f9f9f9;
+  color: #333;
   padding: 20px;
   border-radius: 5px;
-  max-width: 600px;
+  min-width: 60%;
   margin: auto;
 }
 
 label {
   display: block;
-  margin-bottom: 8px;
+  margin-bottom: 1.2rem;
+  font-size: 1.5rem;
 }
 
 input[type="text"],
@@ -439,15 +439,16 @@ input[type="range"],
 select,
 textarea {
   width: 100%;
-  padding: 8px;
+  padding: 1rem;
   margin-bottom: 10px;
   border: 1px solid #ccc;
-  border-radius: 3px;
+  border-radius: 0.3rem;
+  font-size: 1.5rem;
 }
 
 button,
 input[type="submit"] {
-  background-color: var(--accent-color);
+  background-color: #f14d4d;
   color: #fff;
   padding: 10px;
   border: none;
@@ -463,18 +464,15 @@ input[type="submit"]:hover {
 .form-section {
   display: flex;
   flex-wrap: wrap;
-}
-
-form {
-  flex: 2;
+  flex-direction: column;
 }
 
 .membership-benefits {
   flex: 1;
-  margin-left: 20px;
+  margin: 0 1rem;
   background-color: #f1f1f1;
-  padding: 20px;
-  border-radius: 5px;
+  padding: 1.5rem;
+  border-radius: 0.5rem;
 }
 
 .membership-benefits h2 {
@@ -482,7 +480,5 @@ form {
 }
 
 footer {
-  text-align: center;
   margin-top: 20px;
 }
-
