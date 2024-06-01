@@ -186,7 +186,7 @@
     display: grid;
     grid-template-columns: 2fr 1fr;
     width: 80%;
-    margin: 0 auto;
+    margin: 1.5rem auto;
   }
   form {
     min-width: 60%;
@@ -196,5 +196,18 @@
   input[type="submit"] {
     padding: 1.5rem 2.5rem;
     font-size: 1.5rem;
+  }
+  .membership-benefits {
+    max-width: 100%;
+    margin: 0 1.5rem;
+  }
+  .membership-benefits h2 {
+    text-align: center;
+    padding: 1.5rem 0 0 0;
+  }
+  .membership-benefits p {
+    font-size: 1.4rem;
+    padding: 3.5rem 0;
+    border-bottom: 1px solid #888;
   }
 }
