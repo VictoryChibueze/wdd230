@@ -492,3 +492,7 @@ input[type="submit"]:hover {
   padding: 3.5rem 0;
   border-bottom: 1px solid #888;
 }
+.thankyou {
+  text-align: center;
+  font-size: 2rem;
+}
