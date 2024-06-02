@@ -58,7 +58,9 @@ ol {
   list-style: numeric;
   margin-left: 2rem;
 }
-
+ol li::before {
+  content: " ☑️";
+}
 .counter {
   counter-increment: paras;
 }
@@ -73,5 +75,10 @@ ol {
 
 .mark-complete::before {
   font-size: 1rem;
-  content: "✔️";
+  content: " ☑️";
+}
+::marker {
+  color: navy;
+  font-size: 2rem;
+  font-variant: small-caps;
 }
