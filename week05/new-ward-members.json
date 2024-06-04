@@ -1,0 +1,38 @@
+{
+  "familyName": "Cole's Family",
+  "movedToWard": "28/07/2008",
+  "familyCount": 6,
+  "bishopricVisit": "Yes",
+  "familyMembers": [
+    {
+      "name": "Baldwin Cole",
+      "gender": "Male",
+      "birthDate": "08/03/1977"
+    },
+    {
+      "name": "Sheffledon Cole",
+      "gender": "female",
+      "birthDate": "11/09/1982"
+    },
+    {
+      "name": "Marcus Cole",
+      "gender": "Male",
+      "birthDate": "22/04/2006"
+    },
+    {
+      "name": "Jessica Cole",
+      "gender": "female",
+      "birthDate": "04/11/2009"
+    },
+    {
+      "name": "Drew Cole",
+      "gender": "Male",
+      "birthDate": "30/03/2014"
+    },
+    {
+      "name": "Jude Cole",
+      "gender": "Female",
+      "birthDate": "08/12/2019"
+    }
+  ]
+}
