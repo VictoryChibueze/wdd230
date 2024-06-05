@@ -1,0 +1,34 @@
+{
+  "weeks": [
+    {
+      "week": "Week 1",
+      "links": [
+        {
+          "url": "week01/holygrail.html",
+          "title": "HG Layout"
+        },
+        {
+          "url": "week01/chamber-site-plan.html",
+          "title": "Chamber-site plan"
+        }
+      ]
+    },
+    {
+      "week": "Week2",
+      "links": [
+        {
+          "url": "week02/design.html",
+          "title": "Design"
+        },
+        {
+          "url": "week02/bom.html",
+          "title": "BOM-25"
+        },
+        {
+          "url": "week02/responsive.html",
+          "title": "Responsive"
+        }
+      ]
+    }
+  ]
+}
