@@ -230,6 +230,10 @@ h1 {
 }
 
 /* Styles for directory view toggle buttons */
+#directory {
+  width: 90%;
+  margin: 0 auto;
+}
 #directory-controls {
   text-align: center;
   margin: 20px 0;

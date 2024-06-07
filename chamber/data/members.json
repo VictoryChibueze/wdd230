@@ -2,8 +2,8 @@
   "members": [
     {
       "name": "Company A",
-      "address": "123 Main St, Anytown, USA",
-      "phone": "555-1234",
+      "address": "12 Main market St, Onitsha",
+      "phone": "+2347090905432",
       "website": "https://companya.com",
       "image": "companya.png",
       "membershipLevel": "Gold",
@@ -11,8 +11,8 @@
     },
     {
       "name": "Company B",
-      "address": "456 Oak Ave, Othertown, USA",
-      "phone": "555-5678",
+      "address": "456 Oak Ave, Onitsha",
+      "phone": "+2348125256046",
       "website": "https://companyb.com",
       "image": "companyb.png",
       "membershipLevel": "Silver",
@@ -20,8 +20,8 @@
     },
     {
       "name": "Company C",
-      "address": "789 Maple St, Smalltown, USA",
-      "phone": "555-9101",
+      "address": "789 Maple St, Fegge, Onitsha",
+      "phone": "+2348090234576",
       "website": "https://companyc.com",
       "image": "companyc.png",
       "membershipLevel": "Bronze",
@@ -29,8 +29,8 @@
     },
     {
       "name": "Company D",
-      "address": "101 Pine Rd, Bigcity, USA",
-      "phone": "555-1123",
+      "address": "11 Owerri Rd, Upper-iweka, Onitsha",
+      "phone": "+2347098341290",
       "website": "https://companyd.com",
       "image": "companyd.png",
       "membershipLevel": "Gold",
@@ -38,8 +38,8 @@
     },
     {
       "name": "Company E",
-      "address": "202 Cedar Blvd, Village, USA",
-      "phone": "555-1345",
+      "address": "20 Citeike close, Omagba, Onitsha",
+      "phone": "+2348039393346",
       "website": "https://companye.com",
       "image": "companye.png",
       "membershipLevel": "Silver",
@@ -47,8 +47,8 @@
     },
     {
       "name": "Company F",
-      "address": "303 Birch Ln, Metropolis, USA",
-      "phone": "555-1678",
+      "address": "31 Ogbunike strt, Woliwo, Onitsha",
+      "phone": "+2349023234576",
       "website": "https://companyf.com",
       "image": "companyf.png",
       "membershipLevel": "NP",
@@ -56,8 +56,8 @@
     },
     {
       "name": "Company G",
-      "address": "404 Elm St, Smallville, USA",
-      "phone": "555-1902",
+      "address": "404 alor Strt, Fegge, onitsha",
+      "phone": "+2348125349876",
       "website": "https://companyg.com",
       "image": "companyg.png",
       "membershipLevel": "Bronze",
