@@ -4,14 +4,15 @@ let yearEl = document.getElementById("year");
 copyrightYearEl.textContent = new Date(document.lastModified);
 yearEl.textContent = new Date().getFullYear();
 
-const visits = document.querySelector(".visits");
-
-let numVisits = Number(window.localStorage.getItem("numVisits-ls")) || 0;
-
-if (numVisits !== 0) {
-  visits.textContent = numVisits;
+// visit count
+const visitFeedback = document.querySelector("#visitCount");
+let numVisits = localStorage.getItem("visits");
+console.log(numVisits);
+if (numVisits == null) {
+  visitFeedback.textContent = "You're a first timer";
+  localStorage.setItem("visits", 1);
 } else {
-  visits.textContent = `This is your first visit. Welcome!`;
+  numVisits++;
+  localStorage.setItem("visits", numVisits);
+  visitFeedback.innerHTML = `You have been here ${numVisits} times &#x1F440;`;
 }
-
-numVisits++;
