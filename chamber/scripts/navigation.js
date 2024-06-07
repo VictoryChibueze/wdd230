@@ -6,6 +6,9 @@ hamburgerMenu.addEventListener("click", () => {
   hamburgerMenu.classList.toggle("close");
   navEl.classList.toggle("close");
 });
+const lastModifiedParagraph = document.getElementById("lastModified");
+lastModifiedParagraph.textContent = "Last modified: " + document.lastModified;
+
 async function displayWeather() {
   const apiKey = "2b5de9b438883849eae854aa42890fb7";
   const city = "Osogbo";
