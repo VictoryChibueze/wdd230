@@ -159,3 +159,6 @@ iframe {
   top: 0.8rem;
   cursor: pointer;
 }
+#icon {
+  transform: translateX(430%);
+}
